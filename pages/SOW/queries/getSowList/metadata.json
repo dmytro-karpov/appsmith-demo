@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT id, name FROM public.\"sow\" LIMIT 10 OFFSET {{SOW_table.pageOffset}};",
+      "body": "SELECT id, name FROM public.\"sow\" LIMIT {{SOW_table.pageSize}} OFFSET {{SOW_table.pageOffset}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "SOW_table.pageOffset"
+      "SOW_table.pageOffset",
+      "SOW_table.pageSize"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

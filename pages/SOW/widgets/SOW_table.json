@@ -80,11 +80,13 @@
     },
     "parentRowSpace": 10,
     "hideCard": false,
+    "onPageSizeChange": "{{getSowList.run()}}",
     "mobileRightColumn": 34,
     "parentColumnSpace": 17.078125,
     "dynamicTriggerPathList": [
         {"key": "primaryColumns.customColumn1.onClick"},
-        {"key": "onPageChange"}
+        {"key": "onPageChange"},
+        {"key": "onPageSizeChange"}
     ],
     "borderWidth": "1",
     "primaryColumns": {

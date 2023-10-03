@@ -1,1 +1,1 @@
-SELECT id, name FROM public."sow" LIMIT 10 OFFSET {{SOW_table.pageOffset}};
+SELECT id, name FROM public."sow" LIMIT {{SOW_table.pageSize}} OFFSET {{SOW_table.pageOffset}};

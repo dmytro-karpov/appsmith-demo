@@ -43,6 +43,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "SOW_table.pageSize",
                 "SOW_table.pageOffset"
               ],
               "timeoutInMillisecond": 10000
