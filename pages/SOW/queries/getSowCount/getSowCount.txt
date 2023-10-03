@@ -1,0 +1,2 @@
+SELECT COUNT(DISTINCT id)
+FROM public."sow"

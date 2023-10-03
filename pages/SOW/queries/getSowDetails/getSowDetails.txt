@@ -1,0 +1,2 @@
+SELECT name, id, "accountName", "acceptanceDay" FROM public."sow" as sow
+WHERE sow.id = '{{appsmith.store.activeSowId}}';
